@@ -1,0 +1,22 @@
+{
+  "name": "clase-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "nodemon indexServer.js",
+    "lint": "eslint . --ext .ts",
+    "dev": "nodemon indexServer.js --exec \"npm run lint && node indexServer.js\"",
+    "lint.fix": "eslint . --ext .ts --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
