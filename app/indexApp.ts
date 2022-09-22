@@ -24,9 +24,9 @@ class AppContainer extends HTMLElement{
             profileCard.setAttribute(Attribute.username, profile.username); 
             profileCard.setAttribute(Attribute.location, profile.location); 
             profileCard.setAttribute(Attribute.caption, profile.caption); 
-            //profileCard.setAttribute(Attribute.likes, profile.likes); 
-            //profileCard.setAttribute(Attribute.comments, profile.comments); 
-            //profileCard.setAttribute(Attribute.days, profile.days);
+            profileCard.setAttribute(Attribute.likes, String(profile.likes)); 
+            profileCard.setAttribute(Attribute.comments, String (profile.comments)); 
+            profileCard.setAttribute(Attribute.days, String (profile.days));
             profileCard.setAttribute(Attribute.bg, profile.bg); 
     
             profileCard.addEventListener("click", () => console.log(profile));

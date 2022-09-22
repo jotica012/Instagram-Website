@@ -41,7 +41,7 @@ class Suggestions extends HTMLElement {
             
             <section class= "suggestions">
                 <div class = "mainprofile">
-                    <img src="${this.pic}" alt="pic"> 
+                    <img src=${this.pic} alt="pic"> 
                     <h1>${this.username} </h1>
                     <p>${this.username} </p>
                     <h2> Suggestions for you </h2>
@@ -52,7 +52,7 @@ class Suggestions extends HTMLElement {
                 </div>
 
                 <div class = "suggestedProfiles">
-                <img src="${this.pic}" alt="picSuggested"> 
+                <img src=${this.pic} alt="picSuggested"> 
                 <p>${this.username} </p>
                 <p>New to Instagram</p>
                 </div>
